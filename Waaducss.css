@@ -1,4 +1,5 @@
 
+/* Colors */
 
 /* bg-colors */
 
@@ -391,6 +392,120 @@
 }
 
 
+/* gradient colors */
+.w-yellow-gradient{
+    background: #fceabb;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #f8b500, #fceabb);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #f8b500, #fceabb); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.w-red-gradient{
+    background: #cb2d3e;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #ef473a, #cb2d3e);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #ef473a, #cb2d3e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.w-darkblue-gradient{
+    background: #000428;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #004e92, #000428);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #004e92, #000428); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.w-purple-gradient{
+    background: #42275a;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #734b6d, #42275a);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #734b6d, #42275a); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.w-orange-gradient{
+    background: #e96443;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #904e95, #e96443);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #904e95, #e96443); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.w-pink-gradient{
+    background: #EECDA3;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #EF629F, #EECDA3);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #EF629F, #EECDA3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.w-black-gradient{
+    background: #000000;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.w-darkpink-gradient{
+    background: #B24592;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #F15F79, #B24592);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #F15F79, #B24592); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.w-purplered-gradient{
+    background: #7b4397;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #dc2430, #7b4397);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #dc2430, #7b4397); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.w-white-gradient{
+    background: #8e9eab;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #eef2f3, #8e9eab);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #eef2f3, #8e9eab); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.w-darkpurple-gradient{
+    background: #6441A5;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #2a0845, #6441A5);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #2a0845, #6441A5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.w-green-gradient{
+    background: #AAFFA9;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #11FFBD, #AAFFA9);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #11FFBD, #AAFFA9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.w-pinkorange-gradient{
+    background: #f2709c;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #ff9472, #f2709c);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #ff9472, #f2709c); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.w-skin-gradient{
+    background: #DE6262;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #FFB88C, #DE6262);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #FFB88C, #DE6262); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.w-purpleblue-gradient{
+    background: #5f2c82;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #49a09d, #5f2c82);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #49a09d, #5f2c82); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.w-peach-gradient{
+    background: #ED4264;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #FFEDBC, #ED4264);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #FFEDBC, #ED4264); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.w-bluewhite-gradient{
+    background: #757F9A;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #D7DDE8, #757F9A);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #D7DDE8, #757F9A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.w-purpleslate-gradient{
+    background: #5C258D;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #4389A2, #5C258D);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #4389A2, #5C258D); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.w-bluepurple-gradient{
+    background: #4776E6;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #8E54E9, #4776E6);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #8E54E9, #4776E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
 /* paddings */
 
 /* full padding for all sides */
@@ -555,6 +670,8 @@
     padding-left:4rem
 }
 
+
+/* margins */
 
 /* full margin */
 .w-m-1{
@@ -792,6 +909,252 @@
 
 
 
+/* text alignment */
+
+/* center */
+.text-center{
+    text-align: center;
+}
+/* start */
+.text-start{
+    text-align:start;
+}/* end */
+.text-end{
+    text-align: end;
+}/* left */
+.text-left{
+    text-align: left;
+}/* right */
+.text-right{
+    text-align: right;
+}/* justify */
+.text-justify{
+    text-align: justify;
+}
+
+/* display property */
+
+/* block */
+.w-block{
+    display: block;
+}
+/* inline */
+.w-inline{
+    display: inline;
+}
+/* inline block */
+.w-inlineblock{
+    display: inline-block;
+}
+/* none */
+.w-displaynone{
+    display:none;
+}
+
+/* flexbox */
+
+/* display flex */
+.w-flex{
+    display: flex;
+}
+
+/* justify content */
+.w-justify-content-center{
+    justify-content:center;
+}
+.w-justify-content-baseline{
+    justify-content:baseline;
+}
+.w-justify-content-end{
+    justify-content:end;
+}
+.w-justify-content-spacearound{
+    justify-content:space-around;
+}
+.w-justify-content-spacebetween{
+    justify-content:space-between;
+}
+.w-justify-content-right{
+    justify-content:right;
+}
+.w-justify-content-left{
+    justify-content:left;
+}
+.w-justify-content-spacevenly{
+    justify-content:space-evenly;
+}
+.w-justify-content-start{
+    justify-content:start;
+}
+.w-justify-content-stretch{
+    justify-content:stretch;
+}
+
+
+/* justify items */
+.w-justify-items-center{
+    justify-items:center;
+}
+.w-justify-items-end{
+    justify-items:end;
+}
+.w-justify-items-start{
+    justify-items:start;
+}
+.w-justify-items-stretch{
+    justify-items:stretch;
+}
+
+
+/* justify self */
+.w-justify-self-auto{
+    justify-self:auto;
+}
+.w-justify-self-center{
+    justify-self:center;
+}
+.w-justify-self-end{
+    justify-self:end;
+}
+.w-justify-self-start{
+    justify-self:start;
+}
+.w-justify-self-stretch{
+    justify-self:stretch;
+}
+
+
+/* grid */
+.w-grid{
+    display: grid;
+}
+
+/* align content */
+.w-align-content-center{
+    align-content:center;
+}
+.w-align-content-end{
+    align-content:flex-end;
+}
+.w-align-content-spacearound{
+    align-content:space-around;
+}
+.w-align-content-spacebetween{
+    align-content:space-between;
+}
+.w-align-content-spacevenly{
+    align-content:space-evenly;
+}
+.w-align-content-start{
+    align-content:flex-start;
+}
+
+
+/* align items */
+.w-align-items-center{
+    align-items:center;
+}
+.w-align-items-end{
+    align-items:flex-end;
+}
+.w-align-items-start{
+    align-items:flex-start;
+}
+.w-align-items-stretch{
+    align-items:stretch;
+}
+.w-align-items-baseline{
+    align-items:baseline;
+}
+
+
+/* align self */
+.w-align-self-auto{
+    align-self:auto;
+}
+.w-align-self-center{
+    align-self:center;
+}
+.w-align-self-end{
+    align-self:flex-end;
+}
+.w-align-self-start{
+    align-self:flex-start;
+}
+.w-align-self-stretch{
+    align-self:stretch;
+}
+.w-align-self-baseline{
+    align-self:baseline;
+}
+
+
+/* place - horizontal and vertical both  */
+/* place content */
+.w-place-content-center{
+    place-content:center;
+}
+
+.w-place-content-end{
+    place-content:flex-end;
+}
+.w-place-content-spacearound{
+    place-content:space-around;
+}
+.w-place-content-spacebetween{
+    place-content:space-between;
+}
+
+.w-place-content-spacevenly{
+    place-content:space-evenly;
+}
+.w-place-content-start{
+    place-content:flex-start;
+}
+.w-place-content-stretch{
+    place-content:stretch;
+}
+
+/* place items */
+.w-place-items-center{
+    place-items:center;
+}
+.w-place-items-end{
+    place-items:end;
+}
+.w-place-items-stretch{
+    place-items:stretch;
+}
+.w-place-items-baseline{
+    place-items:baseline;
+}
+
+
+/* place self */
+.w-place-self-auto{
+    place-self:auto;
+}
+.w-place-self-center{
+    place-self:center;
+}
+.w-place-self-end{
+    place-self:end;
+}
+.w-place-self-start{
+    place-self:start;
+}
+.w-place-self-stretch{
+    place-self:stretch;
+}
+
+
+
+
+/* flex wrap */
+.w-flexwrap{
+    flex-wrap: wrap;
+}
+
 /* card stardard styling */
 .w-card,
 .w-card-light,
@@ -1011,6 +1374,7 @@
     .w-card-group-horizontal {
         display: block;
     }
+    
 }
 
 @media only screen and (min-width: 600px) {
@@ -1027,6 +1391,36 @@
         display: grid;
         grid-template-columns: auto auto;
     }
+    .md-w-grid-cols-1{
+        grid-template-columns: repeat(1,minmax(0,1fr));
+    }
+    .md-w-grid-cols-2{
+        grid-template-columns: repeat(2,minmax(0,1fr));
+    }
+    .md-w-grid-cols-3{
+        grid-template-columns: repeat(3,minmax(0,1fr));
+    }
+    .md-w-grid-cols-4{
+        grid-template-columns: repeat(4,minmax(0,1fr));
+    }
+    .md-w-grid-cols-5{
+        grid-template-columns: repeat(5,minmax(0,1fr));
+    }
+    .md-w-grid-cols-6{
+        grid-template-columns: repeat(6,minmax(0,1fr));
+    }
+    .md-w-grid-cols-7{
+        grid-template-columns: repeat(7,minmax(0,1fr));
+    }
+    .md-w-grid-cols-8{
+        grid-template-columns: repeat(8,minmax(0,1fr));
+    }
+    .md-w-grid-cols-9{
+        grid-template-columns: repeat(9,minmax(0,1fr));
+    }
+    .md-w-grid-cols-10{
+        grid-template-columns: repeat(10,minmax(0,1fr));
+    }
 }
 
 @media only screen and (min-width: 768px) {
@@ -1042,6 +1436,36 @@
     .w-card-group-horizontal {
         display: flex;
         justify-content: center;
+    }
+    .lg-w-grid-cols-1{
+        grid-template-columns: repeat(1,minmax(0,1fr));
+    }
+    .lg-w-grid-cols-2{
+        grid-template-columns: repeat(2,minmax(0,1fr));
+    }
+    .lg-w-grid-cols-3{
+        grid-template-columns: repeat(3,minmax(0,1fr));
+    }
+    .lg-w-grid-cols-4{
+        grid-template-columns: repeat(4,minmax(0,1fr));
+    }
+    .lg-w-grid-cols-5{
+        grid-template-columns: repeat(5,minmax(0,1fr));
+    }
+    .lg-w-grid-cols-6{
+        grid-template-columns: repeat(6,minmax(0,1fr));
+    }
+    .lg-w-grid-cols-7{
+        grid-template-columns: repeat(7,minmax(0,1fr));
+    }
+    .lg-w-grid-cols-8{
+        grid-template-columns: repeat(8,minmax(0,1fr));
+    }
+    .lg-w-grid-cols-9{
+        grid-template-columns: repeat(9,minmax(0,1fr));
+    }
+    .lg-w-grid-cols-10{
+        grid-template-columns: repeat(10,minmax(0,1fr));
     }
 }
 

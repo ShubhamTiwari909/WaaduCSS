@@ -3,4 +3,7 @@ text-colors
 padding(all)
 margin(all)
 fonts
+display(property)
+flexbox
+grid
 cards
