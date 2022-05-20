@@ -6,4 +6,8 @@ fonts
 display(property)
 flexbox
 grid
+gradients
+border(width,color,radius)
+form(input and label)
+button(buttons)
 cards
