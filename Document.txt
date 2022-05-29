@@ -8,6 +8,7 @@ flexbox
 grid
 gradients
 border(width,color,radius)
-form(input and label)
+form(input and label) and animated input
 button(buttons)
 cards
+animations
