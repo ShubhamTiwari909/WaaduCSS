@@ -12,3 +12,9 @@ form(input and label) and animated input
 button(buttons)
 cards
 animations
+list(ul and li)
+hover effects
+
+
+
+

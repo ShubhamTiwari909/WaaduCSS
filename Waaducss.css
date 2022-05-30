@@ -1738,12 +1738,13 @@
     font-style: italic;
 }
 
-.w-form-input-animated{
+.w-form-input-animated {
     width: 150px;
     transition: all 1s ease-in-out;
     text-overflow: ellipsis;
 }
-.w-form-input-animated:hover{
+
+.w-form-input-animated:hover {
     background: linear-gradient(to right, #8E54E9, #4776E6);
     color: white;
     width: 250px;
@@ -1856,6 +1857,23 @@
 
 
 
+
+/* lists */
+.w-ul {
+    list-style: none;
+    padding: 1rem;
+}
+
+.w-li {
+    padding: 0.6rem 1rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+
+
+
+
 /* card */
 
 /* card stardard styling */
@@ -1876,7 +1894,7 @@
 .w-card-dark-bordered,
 .w-card-shadowed {
     margin: 0.6rem 0.6rem;
-    padding: 1rem 1rem;
+    padding: 1.5rem 1.5rem;
     border-radius: 5px;
 }
 
@@ -2004,13 +2022,28 @@
 
 
 /* glassmorphism */
-.w-card-shadowed{
-    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-    backdrop-filter: blur( 15.5px );
-    -webkit-backdrop-filter: blur( 15.5px );
+.w-card-shadowed {
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(15.5px);
+    -webkit-backdrop-filter: blur(15.5px);
     border-radius: 10px;
 }
 
+
+/* hidden content card */
+.w-card-hidden{
+    height: 50px;
+    text-align: center;
+    padding:1rem;
+    overflow: hidden;
+    transition: all 0.4s ease-in-out;
+}
+.w-card-hidden:hover{
+    height: 100%;
+}
+.w-card-hidden-content{
+    margin-top:4rem;
+}
 
 
 
@@ -2030,22 +2063,45 @@
 .w-flip-x {
     animation: flipx 3s linear 0.6s infinite alternate forwards;
 }
+
 /* animation flip-y */
 .w-flip-y {
     animation: flipy 3s linear 0.6s infinite alternate forwards;
 }
 
-.w-round-and-square{
+
+/* animation round and square */
+.w-round-and-square {
     animation: round-and-square 0.8s linear 0.6s infinite alternate forwards;
 }
 
-.w-round-hover{
+.w-background-change-animation {
+    animation: background-change 15s linear 0.6s infinite alternate forwards;
+}
+
+.w-text-animated{
+    animation: animated-text 1.5s linear 0.6s infinite alternate forwards;
+
+}
+
+/* hover effect  */
+
+/* round border hover effect */
+.w-round-hover {
     transition: all 1s ease-in-out;
 }
-.w-round-hover:hover{
 
+.w-round-hover:hover {
+    display: grid;
+    place-content: center;
     border-radius: 50%;
+}
 
+
+/* dark mode hover effect */
+.w-darkmode-hover:hover {
+    background: linear-gradient(to right, #434343, #000000);
+    color: #ffffff;
 }
 
 
@@ -2077,7 +2133,7 @@
 
 @keyframes flipy {
     0% {
-        opacity: 0.8;       
+        opacity: 0.8;
     }
 
     100% {
@@ -2089,7 +2145,7 @@
 
 @keyframes flipx {
     0% {
-        opacity: 0.8;       
+        opacity: 0.8;
     }
 
     100% {
@@ -2099,6 +2155,126 @@
 }
 
 
+@keyframes background-change {
+    5% {
+        background-color: #c4ea70;
+    }
+
+    10% {
+        background-color: #ede8d5;
+
+    }
+
+    15% {
+        background-color: #7945bf;
+
+    }
+
+    20% {
+        background-color: #ffb190;
+
+    }
+
+    25% {
+        background-color: #ffc9d8;
+
+    }
+
+    30% {
+        background-color: #85d0e0;
+
+    }
+
+    35% {
+        background-color: #a95af3;
+
+    }
+
+    40% {
+        background-color: #ff5563;
+
+    }
+
+    45% {
+        background-color: #ff0f63;
+
+    }
+
+    50% {
+        background-color: #c4ea70;
+    }
+
+    55% {
+        background-color: #ede8d5;
+
+    }
+
+    60% {
+        background-color: #7945bf;
+
+    }
+
+    65% {
+        background-color: #ffb190;
+
+    }
+
+    70% {
+        background-color: #ffc9d8;
+
+    }
+
+    75% {
+        background-color: #85d0e0;
+
+    }
+
+    80% {
+        background-color: #a95af3;
+
+    }
+
+    85% {
+        background-color: #ff5563;
+
+    }
+
+    90% {
+        background-color: #ff0f63;
+
+    }
+    95% {
+        background-color: #c4ea70;
+    }
+
+    100% {
+        background-color: #ede8d5;
+
+    }
+}
+
+
+
+@keyframes animated-text {
+    0%{
+        font-size:0.5rem;
+    }
+    20%{
+        font-size:1rem;
+    }
+    40%{
+        font-size:1.5rem;
+    }
+    60%{
+        font-size:2rem;
+    }
+    80%{
+        font-size: 2.5em;
+    }
+    100%{
+        font-size:3rem
+    }
+}
 
 
 
@@ -2177,10 +2353,10 @@
         grid-template-columns: repeat(10, minmax(0, 1fr));
     }
 
-    .w-form-input-animated:hover{
+    .w-form-input-animated:hover {
         width: 400px;
     }
-    
+
 }
 
 @media only screen and (min-width: 768px) {
@@ -2237,10 +2413,11 @@
     .lg-w-grid-cols-10 {
         grid-template-columns: repeat(10, minmax(0, 1fr));
     }
-    .w-form-input-animated:hover{
+
+    .w-form-input-animated:hover {
         width: 500px;
     }
-    
+
 }
 
 @media only screen and (min-width: 889px) {
@@ -2251,8 +2428,9 @@
     .w-card-heading {
         font-size: 2rem;
     }
-    .w-form-input-animated:hover{
+
+    .w-form-input-animated:hover {
         width: 500px;
     }
-    
+
 }
