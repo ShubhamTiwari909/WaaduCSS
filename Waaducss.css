@@ -1776,8 +1776,11 @@
 .w-button-green-bordered,
 .w-button-purple-bordered,
 .w-button-pink-bordered {
-    padding: 0.5rem 1rem;
     font-family: sans-serif;
+}
+
+.w-button{
+    padding: 0.5rem 1rem;
 }
 
 .w-button-blue,
@@ -2061,6 +2064,8 @@
 
 
 
+/* shapes */
+
 /* Squares */
 .w-square{
     width: 300px;
@@ -2077,8 +2082,27 @@
 }
 
 
-
-
+.w-circle-1,.w-circle-2,.w-circle-3,.w-circle-4,.w-circle-5{
+    width: 250px;
+    height: 250px;
+    border-style: solid;
+    border-radius:50%;
+}
+.w-circle-1{
+    border-width: 1px;
+}
+.w-circle-2{
+    border-width:2px;
+}
+.w-circle-3{
+    border-width: 3px;
+}
+.w-circle-4{
+    border-width: 4px;
+}
+.w-circle-5{
+    border-width: 5px;
+}
 
 
 
@@ -2345,9 +2369,16 @@
         height: 100px;
     }
 
+    .w-circle{
+        width: 120px;
+        height: 120px;
+        border-radius:50%;
+    }
+    
+
 }
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 600px) and (max-width:889px) {
     .w-card {
         width: 15rem;
     }
@@ -2409,10 +2440,16 @@
         width: 250px;
         height: 250px;
     }
+    .w-circle{
+        width: 200px;
+        height: 200px;
+        border-radius:50%;
+    }
+    
 
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 889px) {
     .w-card {
         width: 21rem;
     }
