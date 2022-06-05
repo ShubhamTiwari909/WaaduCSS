@@ -2374,7 +2374,16 @@
         height: 120px;
         border-radius:50%;
     }
-    
+
+    .sm-block{
+        display: block;
+    }
+    .sm-justify-content-center{
+        justify-content: center;
+    }
+    .sm-text-center{
+        text-align:center;
+    }
 
 }
 
